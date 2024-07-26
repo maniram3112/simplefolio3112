@@ -5,10 +5,10 @@ import { defineConfig } from 'vite'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/simplefolio3112/',
   plugins: [
     vue(),
   ],
+  base: '/simplefolio3112',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
