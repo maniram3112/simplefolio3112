@@ -30,7 +30,7 @@ const greeting = {
         link: "images/initials.png", // use relative path from  parent directory -> ex: images/image.ext
         custom: true // takes precedence over image logo and allows for custom HTML logo (./components/Navbar.vue)
     },
-    portraitLink: 'images/portrait.jpg'
+    portraitLink: 'images/portrait4.jpg'
 }
 
 const socialMediaLinks = {
@@ -56,7 +56,7 @@ const about = {
     ],
     photo1Link: 'images/portrait1.jpg',
     photo2Link: 'images/portrait2.jpg',
-    // photo3Link: 'images/portrait3.jpg'
+    photo3Link: 'images/portrait3.jpg'
 }
 
 // --- 🛡️ Experience Section ---
