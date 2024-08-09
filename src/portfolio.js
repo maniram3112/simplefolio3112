@@ -1,5 +1,4 @@
 // --- 🎨 Site Styling ---
-
 // Colors (recommendation: choose a color suitable for dark and light modes)
 // Should be inputted as a hex value. Use https://g.co/kgs/XCcs7T for choosing colors with hex.
 const colors = {
@@ -25,7 +24,7 @@ const greeting = {
     message: "I'm a 4th year Mechanical student at Indian Institute of Technology Dharwad and an aspiring software engineer.",
     // Currently working as a web developer at my university building tools to aid students, educators, and staff.",
     basedLocation: "Dharwad, Karnataka, India",
-    resumeLink: 'images/resume.pdf', // recommended: google drive file share link (change to "anyone on the internet can view")
+    resumeLink: '/src/assets/resume.pdf', // recommended: google drive file share link (change to "anyone on the internet can view")
     logo: {
         link: "images/initials.png", // use relative path from  parent directory -> ex: images/image.ext
         custom: true // takes precedence over image logo and allows for custom HTML logo (./components/Navbar.vue)
@@ -81,24 +80,24 @@ const experiences = [
         "CSS"
         ]
     },
-    {
-        "position": "FrontEnd Web Developer",
-        "company": {
-        "name": "Cultural Fest"
-        },
-        "duration": "Aug 2023 - Oct 2023",
-        "bulletPoints": [
-        "Collaborated with a team of developers to create engaging and responsive web interfaces for the Cultural Fest.",
-        "Enhanced frontend skills by implementing interactive features and ensuring cross-browser compatibility.",
-        "Led code reviews and provided feedback to junior developers, fostering a culture of continuous learning and improvement."
-        ],
-        "hashtags": [
-        "ReactJS",
-        "TeamWork",
-        "JavaScript",
-        "WebDevelopment"
-        ]
-    }
+    // {
+    //     "position": "FrontEnd Web Developer",
+    //     "company": {
+    //     "name": "Cultural Fest"
+    //     },
+    //     "duration": "Aug 2023 - Oct 2023",
+    //     "bulletPoints": [
+    //     "Collaborated with a team of developers to create engaging and responsive web interfaces for the Cultural Fest.",
+    //     "Enhanced frontend skills by implementing interactive features and ensuring cross-browser compatibility.",
+    //     "Led code reviews and provided feedback to junior developers, fostering a culture of continuous learning and improvement."
+    //     ],
+    //     "hashtags": [
+    //     "ReactJS",
+    //     "TeamWork",
+    //     "JavaScript",
+    //     "WebDevelopment"
+    //     ]
+    // }
 ]
 
 // --- 💻 Work Section ---
