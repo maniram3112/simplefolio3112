@@ -24,7 +24,7 @@ const greeting = {
     message: "I'm a 4th year Mechanical student at Indian Institute of Technology Dharwad and an aspiring software engineer.",
     // Currently working as a web developer at my university building tools to aid students, educators, and staff.",
     basedLocation: "Dharwad, Karnataka, India",
-    resumeLink: '/src/assets/resume.pdf', // recommended: google drive file share link (change to "anyone on the internet can view")
+    resumeLink: 'https://app.luminpdf.com/viewer/66bc182735592885f1d93a92', // recommended: google drive file share link (change to "anyone on the internet can view")
     logo: {
         link: "images/initials.png", // use relative path from  parent directory -> ex: images/image.ext
         custom: true // takes precedence over image logo and allows for custom HTML logo (./components/Navbar.vue)
